@@ -29,9 +29,11 @@ app.use(cors())
 
 
 app.get('/', (req,res)=>{
-  db.select('*').from('users').then(data=>{
-    res.json(data)
-  })
+ // db.select('*').from('users').then(data=>{
+   // res.json(data)
+  //})
+
+  res.json('App has been deployed, live')
 })
 
 
