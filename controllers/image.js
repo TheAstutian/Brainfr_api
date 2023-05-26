@@ -1,9 +1,3 @@
-const Clarifai = require('clarifai')
-
-
-
-
-
 
 const handleApiCall = (req,res)=>{
 
